@@ -142,12 +142,12 @@ var SETDEX_RBY = {
     "OU Standard": {"moves":["Psychic","Seismic Toss","Thunder Wave","Recover"]},
     "Ubers Standard": {"moves":["Thunder Wave","Seismic Toss","Psychic","Recover"]},
     "1v1 Psychic Stallbreaker": {"moves":["Psychic","Toxic","Recover","Substitute"]},
-    "Tradebacks OU Standard": {"moves":["Psychic","Thunder Punch","Thunder Wave","Recover"]}
+    "Tradebacks OU Standard": {"moves":["Psychic","Seismic Toss","Thunder Wave","Recover"]}
   },
   "Machamp": {
     "OU Wallbreaker": {"moves":["Low Kick","Body Slam","Hyper Beam","Earthquake"]},
     "NU All-Out Attacker": {"moves":["Submission","Rock Slide","Earthquake","Body Slam"]},
-    "PU Physical Attacker": {"moves":["Submission","Earthquake","Body Slam","Hyper Beam"]},
+    "PU Bulky Attacker": {"moves":["Earthquake","Body Slam","Hyper Beam","Submission"]},
     "1v1 All-Out Attacker": {"moves":["Submission","Hyper Beam","Earthquake","Rock Slide"]}
   },
   "Weepinbell": {
@@ -252,8 +252,7 @@ var SETDEX_RBY = {
   "Electrode": {
     "Ubers Explosion": {"moves":["Thunder Wave","Thunderbolt","Screech","Explosion"]},
     "UU Fast Attacker": {"moves":["Thunderbolt","Thunder Wave","Explosion","Screech"]},
-    "1v1 Screech + Hyper Beam": {"moves":["Thunderbolt","Hyper Beam","Screech","Rest"]},
-    "OU Showdown Usage": {"moves":["Explosion","Thunderbolt","Thunder Wave","Toxic"]}
+    "1v1 Screech + Hyper Beam": {"moves":["Thunderbolt","Hyper Beam","Screech","Rest"]}
   },
   "Exeggcute": {
     "NU Support": {"moves":["Sleep Powder","Stun Spore","Psychic","Explosion"]},
@@ -338,7 +337,7 @@ var SETDEX_RBY = {
     "OU Lead Sleeper": {"moves":["Lovely Kiss","Blizzard","Psychic","Rest"]},
     "Ubers Sleep Lead": {"moves":["Lovely Kiss","Blizzard","Psychic","Counter"]},
     "1v1 Special Attacker": {"moves":["Ice Beam","Psychic","Blizzard","Rest"]},
-    "Tradebacks OU Standard": {"moves":["Lovely Kiss","Blizzard","Psychic","Rest"]}
+    "Tradebacks OU Sleep Lead": {"moves":["Lovely Kiss","Blizzard","Psychic","Rest"]}
   },
   "Electabuzz": {
     "UU Offensive": {"moves":["Thunderbolt","Thunder Wave","Body Slam","Hyper Beam"]},
@@ -379,7 +378,7 @@ var SETDEX_RBY = {
   },
   "Vaporeon": {
     "UU Bulky Special Attacker": {"moves":["Surf","Blizzard","Body Slam","Rest"]},
-    "Tradebacks OU Growth": {"moves":["Growth","Rest","Surf","Acid Armor"]}
+    "Tradebacks OU Growth": {"moves":["Growth","Surf","Acid Armor","Rest"]}
   },
   "Jolteon": {
     "OU Offensive": {"moves":["Thunder Wave","Thunderbolt","Double Kick","Rest"]},
